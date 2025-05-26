@@ -736,6 +736,8 @@ header {
 @media screen and (max-width: 480px) {
   html {
     width: 480px;
+    height: 9000px;
+    overflow: hidden;
   }
   .one_section {
     width: 1480px;
@@ -807,5 +809,59 @@ header {
     top: 1060px;
     transform: translate(-50%,0);
     left: 63%;
+  }
+  .uzor {
+    width: 3000px;
+    height: 2300px;
+    clip-path: polygon(-450% 0%, 496% 0%, 0% 200%, 100% 100%);
+  }
+  .two-section-img {
+    width: 800px;
+    transform: translate(-50%,0);
+    left: 150%;
+  }
+  .two-section-main-span {
+    height: 5px;
+    width: 200px;
+    top: 920px;
+    left: 80%;
+  }
+  .two-section-h1 {
+    font-size: 50px;
+    width: 200px;
+    top: 900px;
+    transform: translate(-50%,0);
+    left: 150%;
+  }
+  .two-section-h2 {
+    top: 1000px;
+    left: 50%;
+    font-size: 60px;
+    width: 800px;
+  }
+  .third-section {
+    width: 1480px;
+    height: 1400px;
+    top: 1200px;
+  }
+  .third-section-img {
+    width: 2880px;
+    height: 1400px;
+  }
+  .third-section-h1 {
+    font-size: 50px;
+  }
+  .fouth-section-h2{
+    top: 1250px;
+    font-size: 70px;
+    width: 900px;
+    left: 500px;
+  }
+  .fouth-section-span {
+    top: 1285px;
+    left: 200px;
+  }
+  .fouth-section-h1 {
+    top: 1400px;
   }
 }
